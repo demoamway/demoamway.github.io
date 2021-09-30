@@ -390,9 +390,55 @@ fieldset {
     text-transform: uppercase;
     font-size: 3rem !important; 
      color: #fff;
+     padding: 3% 0;
 }
 footer{
     background-color: white;
     color:black;
+    padding:1% 0;
+}
+footer    h5{
+    font-size: 1.35rem !important;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif !important; 
+    padding:1% 0;
+}
+footer p{
+    font-size: 0.75rem !important;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif !important; 
+}
+footer i{
+    color:#2ea2d0;
+    font-size: 2rem;
+    padding: 0 5px;
+}
+footer .copyr p{
+    font-size: 1rem !important;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif !important; 
+    margin-top:3%;
+}
+footer .iconsocial{
+    padding-left:5%;
 }
 
+iframe{
+    border: none;
+    border-radius: 30px;;
+}
+.iframe-container {
+    overflow: hidden;
+    /* 16:9 aspect ratio */
+    padding-top: 56.25%;
+    position: relative;
+  }
+  
+  .iframe-container iframe {
+     border: 0;
+     height: 100%;
+     left: 0;
+     position: absolute;
+     top: 0;
+     width: 100%;
+  }
