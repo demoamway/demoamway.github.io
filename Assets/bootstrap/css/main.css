@@ -503,3 +503,26 @@ iframe{
     transform: scale(0.75);
   }
  
+ /*testi*/ 
+ 
+ .tstimonail .carousel-indicators{
+     height: 200px;
+     position: relative;
+ }
+ .carousel-control-prev,.carousel-control-next{
+    margin-top:6%;
+    
+     filter: invert(1);
+     height: 50px;
+    background-color:black;
+     width: 50px;
+     border-radius: 100%;
+ }
+ .carousel-item p
+ {
+ font-size: 1.2rem !important;
+color:white;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif !important; 
+   
+}
