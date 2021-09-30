@@ -6,8 +6,14 @@
 body{
     background-image: url("../../img/background.png");
     background-size: cover;
-    background-position:top center;
+    background-position:center;
     font-family: 'Montserrat', sans-serif !important;
+    overflow-x: auto;
+}
+nav#mainNav {
+    background: transparent;
+    position: absolute;
+    padding: 2% 10%;
 }
 section{
     padding:1.5rem !important;
@@ -228,6 +234,7 @@ section#trainer{
     font-family: 'Montserrat', sans-serif !important;
     color:white;
     font-weight: 400;
+    padding-right:4%;
 }
 .ptendiengia .dg1{
     color:white;
@@ -525,4 +532,102 @@ color:white;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif !important; 
    
+}
+
+@media screen and (max-width:414px) {
+    body{
+        
+        background-repeat: repeat-y;
+        background-size: cover;
+    }
+     #mainNav img  {
+       
+        width: 100px !important;
+        
+    }
+    header{
+       
+        height: 40%;
+        background-size: cover;
+        background-position:center;
+    }
+    .pdiengia h3{
+        padding: 15px 0;
+        font-size: 18px !important;
+    }
+    .ptendiengia{
+        padding: 20px !important;
+        text-align: center;
+        margin-left: 8%;
+    }
+    .anhdiengia{
+        margin-left: 0!important;
+        
+    }
+    #noidung3{
+        padding-top: 60px !important;;
+    }
+    .texta70{
+        
+        margin-top:-20% !important;
+    }
+    .texta70 h1{
+        font-size: 8rem !important;
+    }
+    .anha70 img{
+        width: 350px !important;
+        padding:3%;
+    }
+    fieldset{
+        border-radius: 30px;
+    }
+    legend{
+        font-size: 24px!important;
+
+    }
+    .chucmung {
+        font-size: 30px!important;
+    }
+    .tstimonail .carousel-indicators {
+        height: 59px;
+    }
+    .carousel-control-prev, .carousel-control-next{
+        width: 30px;
+        height:30px;
+    }
+    .carousel-item p{
+        font-size: 1rem !important;
+    }
+    #noidung6 iframe{
+        width:300px;
+        height: 400px;
+        
+    }
+    .thucteao h1{
+        font-size: 1.7rem!important;
+    }
+    .thucteao h6{
+        font-size: 1.2rem!important;
+        padding:10px 0;
+    }
+    .photobooth h1{
+        font-size: 2rem !important;;
+    }
+    .photobooth button{
+        margin-bottom: 20px;
+    }
+    .my-div{
+        height: 350px ;
+    }
+    .my-div iframe{
+        width:300px;
+        height: 300px;
+    }
+    .liveface h1{
+        font-size: 2rem !important;
+
+    }
+    footer .copyr p{
+        font-size: 0.8rem !important;
+    }
 }
