@@ -15,9 +15,9 @@ section{
 
 header{
     background-image: url("../../img/banner1.png");
-    height: 80%;
+    height: 75%;
     background-size: cover;
-    background-position:top center;
+    background-position:center;
 }
 .countter{
     background-color: rgba(255, 255, 255, 0.3);
@@ -197,8 +197,26 @@ section#trainer{
     color: #2ea2d0;
     font-weight: 700 !important;
     font-family: 'Montserrat', sans-serif !important;
-    font-size: 24px !important;
+    font-size: 22px !important;
 }
+.pdiengia h3:before {
+    position: absolute;
+    font-family: 'FontAwesome';
+    left: -10px;
+    top:-30px;
+    content:"\f10d";
+    font-size: 30px;
+    color: #2ea2d0;
+  }
+  .pdiengia h3:after {
+    position: absolute;
+    font-family: 'FontAwesome';
+    right: inherit;
+    content:"\f10d";
+    right: 15%;
+    font-size: 30px;
+    color: #2ea2d0;
+  }
 .pdiengia p{
     color: white;
     font-weight: 400;
@@ -224,7 +242,7 @@ section#trainer{
     font-size: 2rem;
 }
 .anhdiengia{
-    border: 12px solid #0224794d;
+    border: 12px solid #ffffff4d;
     margin-left: -15% !important;
 }
 .a70{
