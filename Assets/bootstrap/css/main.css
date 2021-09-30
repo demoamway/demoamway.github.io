@@ -283,3 +283,33 @@ h1,h3{
     padding-top:5% !important;
 }
 
+fieldset {
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    text-align: right;
+    
+  }
+  legend {
+    
+    font-size: 54px !important; 
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif !important;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  width: auto;;
+  }
+  .rtimeline img{
+      width: 90%;
+      padding: 3%;
+  }
+  .chucmung{
+    font-family: 'Montserrat', sans-serif !important; 
+    font-size: 54px !important; 
+    font-weight: 700;
+    
+  font-size: 3rem;
+  padding:3% 0;
+  color: #fff;
+  }
