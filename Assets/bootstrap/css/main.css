@@ -5,7 +5,8 @@
 }
 body{
     background-image: url("../../img/background.png");
-    background-size: cover;
+    background-size:cover;
+   
     background-position:center;
     font-family: 'Montserrat', sans-serif !important;
     overflow-x: auto;
