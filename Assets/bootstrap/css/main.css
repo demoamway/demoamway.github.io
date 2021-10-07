@@ -514,8 +514,11 @@ iframe{
  /*testi*/ 
  
  .tstimonail .carousel-indicators{
-     height: 200px;
+     height: 170px;
      position: relative;
+ }
+ .tstimonail .carousel-indicators img{
+margin:0 5px;
  }
  .carousel-control-prev,.carousel-control-next{
     margin-top:6%;
