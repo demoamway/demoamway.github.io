@@ -625,7 +625,7 @@ color:white;
     }
     .my-div iframe{
         width:300px;
-        height: 300px;
+        height: 380px;
     }
     .liveface h1{
         font-size: 2rem !important;
@@ -634,4 +634,10 @@ color:white;
     footer .copyr p{
         font-size: 0.8rem !important;
     }
+    #noidung8{
+        margin-top:10%;
+    }
+}
+#noidung8{
+    margin-top:3%;
 }
