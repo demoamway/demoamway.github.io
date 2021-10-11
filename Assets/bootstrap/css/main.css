@@ -641,3 +641,19 @@ color:white;
 #noidung8{
     margin-top:3%;
 }
+.carousel-indicators img{
+    filter: grayscale(100%);
+}
+.carousel-indicators img.active{
+    filter: none;
+}
+.fbcomment h1{
+    font-size: 3rem !important;
+    color: #049dff;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif !important; 
+    text-align: center;
+}
+#facebookcmt{
+    background-color: rgb(214, 213, 213);
+}
